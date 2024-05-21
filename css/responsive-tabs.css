@@ -1,0 +1,181 @@
+
+.tabs {
+	position: relative;
+	width: 100%;
+	overflow: hidden;
+	font-weight: 300;
+	margin-top:20px;
+}
+
+/* Nav */
+.tabs nav {
+	text-align: center;
+}
+
+.tabs nav ul {
+	
+	padding: 0;
+	margin: 0;
+	list-style: none;
+	
+}
+
+.tabs nav ul li {
+	font-family:Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+	font-size:12px;
+	border: 1px solid #becbd2;
+	border-bottom: none;
+	margin-right:0px;
+	display: block;
+	float: left;
+	position: relative;
+	padding-top:5px;
+	text-transform:uppercase;
+	border-top: 2px solid #becbd2;
+}
+.tabs nav ul li img{
+	margin:0 auto;
+}
+
+.tabs nav ul li span{
+	display:block;
+	margin-top:-10px;
+}
+
+.tabs nav li.tab-current {
+	border: 2px solid #90B73A;
+	
+	border-bottom: none;
+	z-index: 100;
+}
+
+.tabs nav li.tab-current:before,
+.tabs nav li.tab-current:after {
+	content: '';
+	position: absolute;
+	height: 3px;
+	right: 100%;
+	bottom: 0;
+	width: 1000px;
+	background:#90B73A;
+}
+
+.tabs nav li.tab-current:after {
+	right: auto;
+	left: 100%;
+	width: 4000px;
+}
+
+.tabs nav a {
+	color: #becbd2;
+	display: block;
+	font-size: 1.45em;
+	line-height: 2.5;
+	padding: 0 14px;
+	white-space: nowrap;
+}
+
+.tabs nav a:hover {
+	color: #768e9d;
+}
+
+.tabs nav li.tab-current a {
+	color: #47a3da;
+}
+
+
+/* Content */
+.content section {
+	font-size: 1.25em;
+	padding: 10px 0;
+	display: none;
+	max-width: 1230px;
+	margin: 0 auto;
+}
+
+.content section:before,
+.content section:after {
+	content: '';
+	display: table;
+}
+
+.content section:after {
+	clear: both;
+}
+
+/* Fallback example */
+.no-js .content section {
+	display: block;
+	padding-bottom:10px;
+	border-bottom: 1px solid #47a3da;
+}
+
+.content section.content-current {
+	display: block;
+}
+
+
+
+/* Example media queries */
+
+@media (max-width: 400px) {
+	.tabs nav a span {
+		display:none;
+	}
+
+	.tabs nav a:before {
+		margin-right: 0;
+	}
+
+	.mediabox {
+		float: none;
+		width: auto;
+		padding: 0 0 35px 0;
+		font-size: 90%;
+	}
+
+	.mediabox img {
+		float: left;
+		margin: 0 25px 10px 0;
+		max-width: 40%;
+	}
+
+	.mediabox h3 {
+		margin-top: 0;
+	}
+
+	.mediabox p {
+		margin-left: 40%;
+		margin-left: calc(40% + 25px);
+	}
+
+	.mediabox:before,
+	.mediabox:after {
+		content: '';
+		display: table;
+	}
+
+	.mediabox:after {
+		clear: both;
+	}
+}
+
+@media screen and (max-width: 32em) {
+	.tabs nav ul,
+	.tabs nav ul li a {
+		width: 100%;
+		padding: 0;
+	}
+
+	.tabs nav ul li {
+		width: 20%;
+		width: calc(20% + 1px);
+		margin: 0 0 0 -1px;
+	}
+
+	.tabs nav ul li:last-child {
+		border-right: none;
+	}
+
+
+}

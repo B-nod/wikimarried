@@ -1,0 +1,20 @@
+[29-Aug-2022 20:58:56 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function resolveUrl() in /home/wikimarr/public_html/ckfinder/config.php:86
+Stack trace:
+#0 {main}
+  thrown in /home/wikimarr/public_html/ckfinder/config.php on line 86
+[07-Oct-2022 03:33:28 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function resolveUrl() in /home/wikimarr/public_html/ckfinder/config.php:86
+Stack trace:
+#0 {main}
+  thrown in /home/wikimarr/public_html/ckfinder/config.php on line 86
+[19-Oct-2022 16:45:41 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function resolveUrl() in /home/wikimarr/public_html/ckfinder/config.php:86
+Stack trace:
+#0 {main}
+  thrown in /home/wikimarr/public_html/ckfinder/config.php on line 86
+[25-Mar-2023 12:16:24 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function resolveUrl() in /home/wikimarr/public_html/ckfinder/config.php:86
+Stack trace:
+#0 {main}
+  thrown in /home/wikimarr/public_html/ckfinder/config.php on line 86
+[01-May-2023 12:03:11 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function resolveUrl() in /home/wikimarr/public_html/ckfinder/config.php:86
+Stack trace:
+#0 {main}
+  thrown in /home/wikimarr/public_html/ckfinder/config.php on line 86

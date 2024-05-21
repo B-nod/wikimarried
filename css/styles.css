@@ -1,0 +1,133 @@
+*{
+	margin:0px;
+	padding:0px;
+}
+body{
+	padding-top:45px;
+	font-family: 'Open Sans', sans-serif;
+	line-height:23px;
+	font-size:15px;
+}
+#masthead { 
+ height:auto;
+ padding-top:25px;
+}
+
+#masthead h1 {
+ font-size: 30px;
+ line-height: 1;
+ padding-top:20px;
+}
+
+#masthead .well {
+ margin-top:8%;
+}
+.response{
+	margin-left:25px;
+	padding:5px;
+	background:#F2F2F2;
+}
+.post h3{
+	margin-top:0px;
+	font-size:17px;
+	font-weight:bold;
+}
+
+.advertisement{
+	margin-top:10px;
+}
+.wel_bdy_txt{
+	font-family:"Open Sans",Helvetica, Arial, sans-serif;
+	font-size:16px;
+	line-height:24px;
+	text-align:justify;
+}
+h1.main-heading{
+	font-family:"Open Sans",Helvetica, Arial, sans-serif;
+	font-size:22px;
+	border-bottom:1px dashed #B7B7B7;
+	text-transform:uppercase;
+	margin-bottom:15px !important;
+	font-weight:bold;
+	padding-bottom:5px;
+}
+#sidebar{
+	margin-top:15px;
+}
+.navbar{
+	background: linear-gradient(to bottom, #025FBE 0%, #0257AF 44%, #0855A4 100%) repeat scroll 0% 0% transparent;
+	
+}
+.navbar-default .navbar-nav > li > a{
+	color:#FFFFFF !important;
+}
+.post{
+	-moz-box-shadow: 0 0 2px #DCDCDC;
+-webkit-box-shadow: 0 0 2px #DCDCDC;
+box-shadow: 0 0 2px #DCDCDC;
+margin-bottom:30px;
+padding:15px;
+font-size:15px;
+text-align:justify;
+}
+@media screen and (min-width: 768px) {
+  #masthead h1 {
+    font-size: 50px;
+  }
+}
+.post .img-responsive{
+	margin-right:15px;
+	margin-top:5px;
+}
+.navbar-bright {
+ background-color:#111155;
+ color:#fff;
+}
+
+.affix-top,.affix{
+ position: static;
+}
+
+.post >.thumbnail{
+	margin-bottom:5px;
+	font-size:14px;
+	background:#FCFCFC;
+	padding:10px;
+}
+
+@media (min-width: 979px) {
+  #sidebar.affix-top {
+    position: static;
+  	margin-top:30px;
+  	
+  }
+  
+  #sidebar.affix {
+    position: fixed;
+    top:49px;
+    width:228px;
+  }
+}
+
+#sidebar li.active {
+  border:0 #eee solid;
+  border-right-width:5px;
+}
+#sidebar li h3{
+	font-family: 'Open Sans', sans-serif;
+	margin:5px;
+	font-size:18px;
+	font-weight:bold;
+	
+}
+#sidebar > li > a{
+	font-family: 'Open Sans', sans-serif;
+	border-bottom:1px dashed #DADADA;
+	padding:8px 5px;
+}
+.footer{
+	background:#0260C0;
+	padding:10px 0;
+	color:#FFFFFF;
+	text-align:center;
+}

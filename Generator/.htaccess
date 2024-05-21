@@ -1,0 +1,4 @@
+AuthType Basic
+AuthName "public_html/Generator"
+AuthUserFile "/home/morearti/.htpasswds/public_html/Generator/passwd"
+require valid-user

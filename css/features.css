@@ -1,0 +1,243 @@
+.mytab{
+	width:675px;
+		float:left;
+		border:3px solid #0052AF;
+		padding:5px;
+}
+ul.tabs {
+	margin: 0;
+	padding: 0;
+	float: left;
+	list-style: none;
+	height: 32px; /*--Set height of tabs--*/
+	background:#0052AF !important;
+	width:638px;
+	text-align:justify;
+
+}
+ul.tabs li {
+	float: left;
+	margin: 0;
+	padding: 0;
+	height: 31px; /*--Subtract 1px from the height of the unordered list--*/
+	line-height: 31px; /*--Vertically aligns the text within the tab--*/
+
+	border-left: none;
+	margin-bottom: -1px; /*--Pull the list item down 1px--*/
+	overflow: hidden;
+	position: relative;
+	border-right:1px solid #30F;
+	
+}
+ul.tabs li a {
+	text-decoration: none;
+	font-weight:bold !important;
+	color: #FFF;
+	display: block;
+	font-size:12px;
+	padding: 0 6px;
+	/*--Gives the bevel look with a 1px white border inside the list item--*/
+	outline: none;
+
+}
+ul.tabs li a:hover {
+	background: #fff;
+	color:#000;
+}
+ul.tabs li.active   a { /*--Makes sure that the active tab does not listen to the hover properties--*/
+	background:#fff;
+	border-bottom: 1px solid #FAFAFA; /*--Makes the active tab look like it's connected with its content--*/
+	color:#000 !important;
+}ul.tabs li.active{
+	background:none !important;
+} 
+
+/* My Tab Content */
+
+.tab_container {
+
+	border-top: none;
+	overflow: hidden;
+	clear: both;
+	float: left;
+	width:666px !important;
+
+	padding:5px 0px !important;
+	padding-left:5px;
+	font-size:13px !important;
+	font-family:Verdana, Geneva, sans-serif !important;
+	line-height:20px;
+	text-align:justify;	
+	color:#424242 !important;
+}
+.tab_content h2{
+	font-size:14px;
+	color:#00F;
+	text-transform:uppercase;
+	border-bottom:1px dashed #CCCCCC;
+	padding:5px 0;
+}
+#tab1 li{
+	list-style-image:url(../images/arrow.png);
+	list-style-position:inside;
+	padding-left:5px;
+	line-height:21px;
+}
+
+#tab2 li{
+	
+	line-height:22px;
+	padding-left:10px;
+	font-size:13px;
+}
+#tab3{
+	
+	line-height:22px;
+	
+	font-size:13px;
+}
+		
+#tab5 li{
+	list-style:none;
+}
+#tab4 ul{
+	list-style:none;
+}
+.main_heading{
+	border-bottom:1px solid #CCC;
+	background:#E0E0E0;
+	padding:5px;
+	color:#000;
+	font-weight:bold;
+}
+.main_content_text{
+	width:auto;
+	height:auto;
+}
+.more_in_this{
+	width:auto;
+	height:auto;
+	margin-top:10px;
+}
+.heading_more{
+	font-weight:bold;
+	background:#E0E0E0;
+	padding:5px;
+	color:#000;
+	
+}
+.heading_text{
+	width:auto;
+	height:auto;
+	background:#488F47;
+}
+
+ul.booking_btn{
+	width:auto;
+	list-style:none;
+}
+ul.booking_btn li{
+	float:left;
+	margin-right:5px;
+}
+
+
+ul.booking_btn li a{
+	text-decoration:none;
+	color:#CCC;
+	font-size:16px;
+	
+	
+}
+
+
+
+.right_sidebar{
+	width:250px;
+	height:auto;
+	float:right;
+}
+.trp_fa{
+	width:auto;
+	height:auto;
+	margin-bottom:10px;
+	background:#FFFFFF;
+}
+h4.su_head{
+	font-size:14px;
+	font-weight:bold;
+	color:#fff;
+	background:#0052AF;
+	border-radius:5px 0px 5px 0px;
+	-moz-border-radius:5px 5px 0 0;
+	-webkit-border-radius:5px 5px 0 0;
+		height: 35px; /*--Subtract 1px from the height of the unordered list--*/
+	line-height: 35px; /*--Vertically aligns the text within the tab--*/
+	
+	padding-left:10px;
+	font-family: Helvetica, Arial, sans-serif;
+	
+}
+
+.trip_box{
+	width:auto;
+	
+	border-top:0;
+	padding:5px;
+	
+}
+table#trt{
+	border-collapse:collapse;
+}
+table#trt{
+	border-collapse:collapse;
+}
+table#trt td{
+	padding:3px;
+}
+table#trt td.left{
+	color:#000;
+	font-size:10px;
+	font-weight:bold;
+	
+}
+ul.mores{
+	padding:0 5px;
+	list-style:none;
+}
+ul.mores li{
+	background:url(../images/arrow.png) no-repeat left;
+	padding-left:12px;
+}
+ul.mores a{
+	text-decoration:none;
+	line-height:26px;
+	color:#030;
+}
+ul.mores a:hover{
+	color:#666;
+}
+ul.short_more{
+	list-style:none;
+}
+ul.short_more li{
+	border-bottom:1px dashed #CCCCCC;
+	padding:5px;
+}
+ul.short_more a{
+	text-decoration:none;
+	color:#004477;
+	font-size:12px;
+	text-overflow:ellipsis;
+	font-weight:bold;
+	
+}
+ul.short_more img{
+	margin-right:5px;
+}
+ul.short_more p{
+	font-size:11px;
+	line-height:16px;
+	text-align:left;
+	font-family:Verdana, sans-serif;
+}

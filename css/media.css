@@ -1,0 +1,275 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jul 18, 2014, 8:06:06 AM
+    Author     : Aneal
+*/
+
+/* for  xs class*/
+@media (max-width:767px){
+
+    .im-hiding{
+        display: none;
+    }
+    nav{
+        padding-top: 0px ;
+    }
+    .hideme{
+        display: none;
+    }
+
+    .main-nav li a {
+        padding: 10px 20px !important;
+    }
+    .second-right{
+        text-align: center !important;
+    }
+    .search-bar{
+        float: none !important;
+
+    }
+    .search-bar input[type='text']{
+        width: 100% !important;
+    }
+    .support{
+        float: none !important;
+    }
+    .product-div-wrapper{
+        padding-left: 15px;
+    }
+    .text-center-xs{
+        text-align: center;
+    }
+    .mop-content{
+        padding-left: 0px;
+    }
+    .btm-bdr{
+        border-bottom: 1px dotted #CCC;
+        padding-bottom: 10px;
+    }
+    .designed-by{
+        float: none;
+    }
+    .left-nav-wrapper{
+       margin-bottom: 10px; 
+       padding-bottom: 0px;
+    }
+}
+@media (max-width:790px){
+    .mega-div{
+        width:590px !important;
+    }
+}
+
+/* for  sm class*/
+@media (max-width:991px){
+
+
+    .main-nav {
+        width: 100%;
+        background: #0DA146;
+    }
+
+    .nav-bg{
+        background: transparent;
+
+    }
+    .main-nav  li{
+        display: block;
+        padding-left: 10px;
+        width: 100%;
+
+    }
+    .main-nav li{
+        border-top: 1px dotted #fff;
+        /*        border-bottom: 1px dotted #ccc ;*/
+    }
+    .main-nav > li{
+        border-top: 1px solid #fff;
+        border-bottom: 1px solid #ccc ;
+    }
+
+    .main-nav li a{
+        color: #fff !important;
+    }
+    .main-nav > li:first-child{
+        border-top: none;
+    }
+    .main-nav > li:last-child{
+        border-bottom: none;
+    }
+    .main-nav ul > li:last-child{
+        border-bottom: none;
+    }
+
+    .main-nav li a{
+        display: block;
+        color: #fff;
+        padding: 5px 20px;
+
+    }
+
+    .main-nav li ul{
+        display: none;
+
+    }
+    .main-nav li:hover{
+        background: #05721F;
+    }
+    .below{
+
+        background:url(../img/down1.png) no-repeat 96% 95% !important ;
+
+    }
+    .nav-wrapper{
+        border-bottom: none;
+        margin: 5px 0px;
+    }
+    .logo-div{
+        text-align: center;
+    }
+    .second-right{
+        float: none;
+        margin: 10px 0px;
+    }
+    .search-bar{
+        float: right;
+    }
+    .support{
+        float: left;
+    }
+    .btm-border{
+        border:none;
+    }
+    .logo-div-a{
+        display: block !important;
+        text-align: center !important;
+    }
+    .third-header-wrapper{
+        border-top: 1px solid green;
+    }
+    .third-header{
+        margin: 10px 0px; 
+    }
+    .slider2-wrapper{
+        top: 23px;
+    }
+    .new-arrival{
+        height: 65px;
+        line-height: 64px;
+    }
+    .mega-div{
+        width: 650px !important;
+    }
+}
+
+/* for  md class*/
+@media (max-width:1199px){
+    .main-nav > li > a {
+
+        font-size: 12px !important;
+        padding-left: 7px;
+    }
+}
+
+@media (min-width:768px){
+    .im-hiding{
+        display: block !important;
+    }
+
+}
+
+@media (min-width:992px){
+
+
+    .nav-bg{
+        margin-top: 5px;
+    }
+    .main-nav{
+
+
+    }
+    .main-nav > a{
+        line-height: 95px;
+
+    }
+    .main-nav a{
+        /*color: #000;*/
+        display: block;
+        padding: 12px 13px;
+    }
+    .active{
+        border-bottom: 2px solid #067732;
+    }
+    .main-nav >li{
+        float: left;
+
+
+
+    }
+
+    .main-nav li{
+        position:relative;
+
+
+
+    }
+
+
+
+    .main-nav ul{
+        position: absolute;
+        display: none;
+        min-width: 250px;
+        box-shadow: 2px 4px 5px #948D8D;
+        background: #34771F;
+
+
+    }
+
+
+    .main-nav li:hover > ul{
+        display: block;  
+        z-index:999999;
+    }
+
+    .main-nav ul li{
+
+        border-top: 1px solid #045804;
+        border-bottom: 1px solid #ccc ;
+
+    }
+
+    .main-nav > li:hover{
+        background: #000; /* Old browsers */
+        color: #2377cf;
+
+
+    }
+
+    .main-nav  li:hover > a{
+        color: #fff;
+        text-decoration: none;
+    }
+
+    .main-nav  li:hover{
+        background: #05721F;
+    }
+    .main-nav ul a{
+        height: auto;
+        padding: 10px 20px;
+        color: #fff;
+    }
+
+    .main-nav ul ul{
+        left: 100%;
+        top: 35%;
+
+    }
+
+}
+@media (min-width:1200px){
+}

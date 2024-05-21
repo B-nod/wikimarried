@@ -1,0 +1,34 @@
+#Header set X-Robots-Tag "noindex, nofollow"
+RewriteEngine On
+# localhost
+#RewriteBase /wikimarried.com/
+# live
+RewriteBase /
+#RewriteBase /var/www/wikimarried.com/
+
+ErrorDocument 404 http://wikimarried.com/404.html
+
+RewriteCond %{HTTPS} !=on
+RewriteRule .* https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+
+
+
+RewriteRule ^(admin|ckfinder|ckeditor)($|/) - [L]
+RewriteCond %{HTTP_HOST} !^www\.
+RewriteRule ^(.*)$ http://www.%{HTTP_HOST}/$1 [R=301,L]
+RewriteRule index.html$ index.php [L]
+RewriteRule ^wallpaper/([0-9]+) index.php?galleryId=$1 [L]
+RewriteRule ^testimonials/([-A-Za-z0-9]+)\.html$ index.php?action=testimonials&title=$1 [L]
+RewriteRule ^spring/([-A-Za-z0-9]+)\.html$ index.php?grab=spring&title=$1 [L]
+RewriteRule ^autumn/([-A-Za-z0-9]+)\.html$ index.php?grab=autumn&title=$1 [L]
+RewriteRule ^page/([-0-9]+)/ index.php?page=$1 [L]
+RewriteRule ^([-A-Za-z0-9]+)/([-A-Za-z0-9]+)\.html$ index.php?action=$1&title=$2 [L]
+RewriteRule ^blog index.php?action=blog [L]
+RewriteRule ^show/video/([0-9]+) index.php?videoId=$1 [L]
+RewriteRule ^([-A-Za-z0-9]+)/([-A-Za-z0-9]+)/([-0-9]+)\.html$ index.php?action=$1&search=$2&page=$3 [L]
+RewriteRule ^category/show/page/([-0-9]+)/([-A-Za-z0-9]+)\.html$ index.php?show=category&page=$1&title=$2 [L]
+RewriteRule ^([-A-Za-z0-9]+)\.html$ index.php?title=$1 [L]
+RewriteRule ^([-A-Za-z0-9]+)\.html$ index.html?page=$1 [L]
+
+
+
